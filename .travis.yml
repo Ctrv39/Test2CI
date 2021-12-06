@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode13
+xcode_project: Test2CI.xcodeproj 
+xcode_scheme: Test2CI
+xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
