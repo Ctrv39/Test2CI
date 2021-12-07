@@ -2,7 +2,7 @@ language: swift
 osx_image: xcode13.1
 xcode_project: Test2CI.xcodeproj 
 xcode_scheme: Test2CI
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+xcode_destination: platform=iOS Simulator,OS=14.0.1,name=iPhone 11 Pro
 
 before_install:
   - gem install cocoapods-keys
